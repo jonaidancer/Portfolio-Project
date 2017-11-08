@@ -1,5 +1,29 @@
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 body{
-  background-color:lightpink;
+  background-color:white;
 
 }
 
@@ -13,4 +37,52 @@ color:limegreen;
 font-style:italic;
 
 
+}
+label{
+
+  color:lightgreen;
+
+}
+input [type='text']{
+  background-color:green;
+}
+input{
+  color:lightgreen;
+  background-color:lightgreen;
+}
+input[type='submit']{
+  color:lightpink;
+}
+ul {
+
+    flex-direction:row-reverse;
+    margin: 0;
+    padding: 0;
+}
+* { box-sizing: border-box; }
+ul {
+  height: 2.500em;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #EEE;
+
+  font-size: 16px;
+}
+li {
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: 1.563em;
+
+  height: 100%;
+  width: 6.25em;
+
+  cursor: pointer;
+  user-select: none;
+
+  background: #EEE;
+  color: #555;
+  text-align: center;
+  line-height: 2.5em;
 }
